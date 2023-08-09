@@ -1,0 +1,53 @@
+.card{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px black;
+    height: 900px;
+    width: 800px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+.grinder{
+    height: 700px;
+}
+.btn{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 90px;
+    width: 400px;
+    border-radius: 0px 0px 0px 15px; 
+    font-size: 30px;
+}
+.btn1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 90px;
+    width: 400px;
+    border-radius: 0px 0px 15px 0px; 
+    font-size: 30px;
+}
+.btn:hover{
+    background-color: darkgray;
+}
+.btn1:hover{
+    background-color: darkgray;
+}
+.text{
+    font-size: 35px;
+}
+.btn2{
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+#text1{
+    font-size: 30px;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electronics</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <img src="./images/grinder5.png" class="grinder">
+        <br />
+        <h class="text">BAJAJ GX-75 750 Juicer Mixer Grinder (4 Jars, White)</h>
+        <button class="btn2" onClick= "increase()"> + </button> <span id="text1"> 0 </span> <button onClick= "decrease()"
+            class="btn2">-</button>
+        <button class="btn" onclick="increase()">Add to cart</button>
+        <button class="btn1">Buy Now</button>
+    </div>
+    <script>
+        function decrease() {
+            const element = document.getElementById('text1');
+            if(element.innerText>0)
+            element.innerText = parseInt(element.innerText) - 1;
+            else
+            element.innertext = 0;
+        }
+        function increase() {
+            const element = document.getElementById('text1');
+            element.innerText = parseInt(element.innerText) + 1;
+        }
+    </script>
+</body>
+
+</html>
