@@ -2,13 +2,13 @@
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    border: solid 5px black;
+    border: solid 3px black;
     height: 60vh;
     width: 25vw;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     position: relative;
-    box-shadow: 0px 0px 20px 2px;
+    box-shadow: 0px 0px 10px 0.5px;
 }
 .grinder{
     height: 40vh;
@@ -19,8 +19,8 @@
     left: 0px;
     height: 7vh;
     width: 12.5vw;
-    border-radius: 0px 0px 0px 15px; 
-    font-size: 30px;
+    border-radius: 0px 0px 0px 5px; 
+    font-size: 20px;
 }
 .btn1{
     position: absolute;
@@ -28,8 +28,8 @@
     right: 0px;
     height: 7vh;
     width: 12.5vw;
-    border-radius: 0px 0px 15px 0px; 
-    font-size: 30px;
+    border-radius: 0px 0px 5px 0px; 
+    font-size: 20px;
 }
 .btn:hover{
     background-color: darkgray;
@@ -38,17 +38,17 @@
     background-color: darkgray;
 }
 .text{
-    font-size: 35px;
+    font-size: 20px;
 }
 .btn2{
-    font-size: 30px;
+    font-size: 15px;
     height: 3vh;
     width: 2vw;
     background-color: aliceblue;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 #text1{
-    font-size: 30px;
+    font-size: 15px;
 }
 
