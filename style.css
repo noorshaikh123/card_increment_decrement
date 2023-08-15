@@ -1,24 +1,26 @@
 .card{
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     border: solid 3px black;
-    height: 60vh;
-    width: 25vw;
+    height: 460px;
+    width: 300px;
     border-radius: 10px;
     text-align: center;
     position: relative;
     box-shadow: 0px 0px 10px 0.5px;
 }
 .grinder{
-    height: 40vh;
+    height: 300px;
 }
 .btn{
     position: absolute;
     bottom: 0px;
     left: 0px;
-    height: 7vh;
-    width: 12.5vw;
+    height: 40px;
+    width: 150px;
     border-radius: 0px 0px 0px 5px; 
     font-size: 20px;
 }
@@ -26,8 +28,8 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
-    height: 7vh;
-    width: 12.5vw;
+    height: 40px;
+    width: 150px;
     border-radius: 0px 0px 5px 0px; 
     font-size: 20px;
 }
@@ -39,16 +41,25 @@
 }
 .text{
     font-size: 20px;
+    margin-bottom: 0px;
 }
 .btn2{
     font-size: 15px;
-    height: 3vh;
-    width: 2vw;
+    height: 25px;
+    width: 25px;
     background-color: aliceblue;
-    margin: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 5px;
 }
 #text1{
     font-size: 15px;
+    margin-top: 10px;
+}
+.div-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
